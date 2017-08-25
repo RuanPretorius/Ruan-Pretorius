@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap-social.css">   
     <link href="css/styles.css" rel="stylesheet">
     <title>Ristorante Con Fusion</title>
+    
 </head>
 
 <body>
@@ -36,13 +37,21 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-8">
+                <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col col-sm align-self-center">
+                <div class="col-lg col-md align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                <br>
+                
+                <!-- Task 3 -->
+                <div class="col-lg col-md align-self-center">
+                    <button type="button" class="btn btn-warning btn-block btn-sm"><a href="#top" style="text-decoration:none;">Reserve Table</a></button>
+				</div>
+                <!-- END Task 3 -->
+                
             </div>
         </div>
     </header>
@@ -66,17 +75,28 @@
                 </div>
             </div>
         </div>
-
-
+        
+        
+        
+        <!-- Task 2 -->
         <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
+            <div class="col-sm-4 col-md-3 flex-first">
                 <h3>This Month's Promotions</h3>
             </div>
-            <div class="col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p class="hidden-xs-down">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            
+            <div class="media-body col-md col-sm">
+                <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                 <p class="hidden-xs-down">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
             </div>
-        </div>
+            
+            <div class="flex-last">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="Weekend Grand Buffet">
+                </div>
+            </div>
+        </div> 
+        <!-- END Task 2 -->
+  
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3 flex-last">
@@ -99,6 +119,66 @@
             </div>
         </div>
     </div>
+    
+    <!-- Reserve Table - Task 1 -->
+    <div class="container">
+     <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-8 offset-sm-2" id="top">
+             <div class="card">
+                <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                 <br>
+                    <div class="card-block">
+                        
+                        <!-- Radio Buttons -->
+                        <div class="form-group row align-items-center">
+                            <label for="emailid" class="col-md-2 col-form-label">Number of Guests</label>
+                            <div class="radio col-sm flex-last">
+							<label class="radio-inline text-muted"><input type="radio" name="optradio"> 1</label>
+							<label class="radio-inline text-muted"><input type="radio" name="optradio"> 2</label>
+							<label class="radio-inline text-muted"><input type="radio" name="optradio"> 3</label>
+							<label class="radio-inline text-muted"><input type="radio" name="optradio"> 4</label>
+							<label class="radio-inline text-muted"><input type="radio" name="optradio"> 5</label>
+							<label class="radio-inline text-muted"><input type="radio" name="optradio"> 6</label>
+                            </div>
+                        </div>
+                        <!-- End Radio Buttons -->
+                          
+                        <!-- Date and Time -->
+                        <div class="form-group row align-items-center">
+                            <label for="telnum" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                        
+                            <div class="col-sm flex-last">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="fa fa-calendar fa-lg"></span></div>
+                                        <input type="tel" class="form-control" id="date" name="date" placeholder="Date">
+                                </div>
+                            </div>
+                        
+                            <div class="col-sm flex-last">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="fa fa-globe fa-lg"></span></div>
+                                    <input type="tel" class="form-control" id="time" name="time" placeholder="Time">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Date and Time -->
+                 
+                        <!-- Reserve Button -->
+                        <div class="form-group row">
+                            <div class=" col-sm-2 col-md-2">
+                            </div>
+                            <div class="col-xs col-sm col-md">
+                                <button type="submit" class="btn btn-primary"><strong>Reserve</strong></button>
+                            </div>
+                        </div>
+                        <!-- End Reserve Button --> 
+                        
+                    </div>
+				</div>
+            </div>
+        </div>
+    </div>
+    <!-- End Reserve Table - Task 1 -->
 
     <footer class="footer">
         <div class="container">
