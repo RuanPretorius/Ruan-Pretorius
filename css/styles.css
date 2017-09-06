@@ -9,15 +9,17 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: lightblue;
   margin: 0px auto;
   padding: 20px 0px; }
 
 .jumbotron {
-  margin: 0px auto;
+  margin: auto;
   padding: 70px 30px;
-  background: #9575CD;
-  color: floralwhite; }
+  background: lightblue;
+  color: floralwhite; 
+  text-align: center;
+}
 
 address {
   font-size: 80%;
@@ -29,7 +31,7 @@ body {
   z-index: 0; }
 
 .navbar-inverse {
-  background-color: #512DA8; }
+  background-color: gray; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -51,3 +53,116 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+
+/*Assignment 4 - Task 4 */
+.modal-header {
+    background-color: gray;
+    color:floralwhite;
+}
+
+.modal-footer {
+  background-color: gainsboro; 
+}
+
+.modal-body {
+    background-color: lightblue; 
+}
+
+.close {
+    color:floralwhite;
+}
+
+/*End Assignment 4 - Task 4 */
+
+.container-fluid {
+    height: 600px;
+    padding-top: 5px;
+}
+
+.flex-container {
+  height: 600px;
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  width: 1000px;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: lightgray;
+  padding: 5px;
+  width: 195px;
+  height: 585px;
+  margin-top: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.flex-item2 {
+    background: gray;
+  padding: 5px;
+  width: 600px;
+  height: 585px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.input-group {
+   margin-top: 30px
+}
+
+.flex-item11 {
+  background: lightgray;
+  padding: 5px;
+  width: 275px;
+  height: 585px;
+  margin-top: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.flex-item21 {
+background: gray;
+  padding: 5px;
+  width: 700px;
+  height: 585px;
+  margin-top: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.button-container {
+      text-align: center;
+}
+
+.container8 {
+    padding-top: 10px;
+    text-align: left;
+}
+

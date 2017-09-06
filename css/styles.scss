@@ -70,3 +70,26 @@ body{
     position: absolute;
     bottom: 0px;
 }
+
+/*Assignment 4 - Task 4*/
+.modal-header {
+  background: $background-dark;
+  color: white;
+  .close {
+    color: floralwhite;
+  }
+}
+
+.modal-footer {
+  background-color: $background-light; 
+}
+
+.modal-body {
+    background-color: $background-pale; 
+}
+
+.close {
+    color:floralwhite;
+}
+/*Assignment 4 - Task 4 */
+
